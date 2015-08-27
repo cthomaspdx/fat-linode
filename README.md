@@ -8,7 +8,7 @@ This cookbook makes your favorite breakfast sandwich.
 Requirements
 ------------
 recipe::static_ip 
-configures /etc/network/interfaces for debian, in order for it to work your node.name must match your linode label. This will write a private ip to the interfaces file if a private ip is issued.
+configures /etc/network/interfaces for debian. This will write a private ip to the interfaces file if a private ip is issued.
 e.g.
 #### packages
 - `toaster` - fat-linode needs toaster to brown your bagel.
